@@ -58,6 +58,7 @@
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Offset for fixed navbar */
   }
 
   body {
@@ -166,7 +167,11 @@
   }
 
   .section {
-    @apply py-16 md:py-24;
+    @apply py-20 md:py-32;
+  }
+
+  .section-alt {
+    @apply py-24 md:py-36;
   }
 
   .section-title {

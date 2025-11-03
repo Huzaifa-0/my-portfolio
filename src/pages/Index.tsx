@@ -29,7 +29,7 @@ const Index = () => {
       <Technologies />
       <Projects />
       <Contact />
-      <footer className="py-8 bg-background border-t border-border/30">
+      <footer className="py-12 md:py-16 bg-background border-t border-border/30 mt-8">
         <div className="container text-center">
           <p className="text-muted-foreground">
             © {new Date().getFullYear()} Huzaifa Alfahl. All rights reserved.

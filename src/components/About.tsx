@@ -9,7 +9,7 @@ const About = () => {
   });
   
   return (
-    <section id="about" ref={ref} className="section py-20 bg-secondary/30">
+    <section id="about" ref={ref} className="section bg-secondary/30">
       <div className="container">
         <div className="max-w-4xl mx-auto">
           <AnimatedText delay={0.1} className="mb-4">

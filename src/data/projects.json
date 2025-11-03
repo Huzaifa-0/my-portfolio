@@ -105,12 +105,14 @@
     "tasks": [
       "Built admin/content management dashboard using Filament",
       "Participated in database design and architecture",
-      "Implemented multi-language support at database level"
+      "Implemented multi-language support at database level",
+      "Implementing Typesense for advanced search capabilities"
     ],
     "achievements": [
       "Created user-friendly CMS for non-technical content managers",
       "Successfully implemented multi-language content structure",
-      "Delivered scalable solution for growing event catalog"
+      "Delivered scalable solution for growing event catalog",
+      "Improved search speed and relevance for users with Typesense multi-search and AI semantic search"
     ],
     "contributions": [
       "Designed efficient database relationships for events and artists",
@@ -313,7 +315,7 @@
   {
     "id": "11",
     "title": "Blindlove",
-    "link": null,
+    "link": "https://www.blindlove.io/",
     "excerpt": "Anonymous dating application with intelligent matching algorithm based on preferences and interests.",
     "description": "Innovative dating platform featuring an anonymous matching algorithm that uses weighted preferences, cosine similarity, and bitmap interests for optimal user matching. Built with real-time communication capabilities, multi-language support, and scalable architecture using Node.js clustering and Redis for high-performance operations.",
     "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
@@ -350,6 +352,46 @@
         "Implemented comprehensive multi-language support at all application layers",
         "Optimized database queries and data structures for performance at scale",
         "Designed robust real-time communication infrastructure with fallback mechanisms"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Facilitatator",
+    "link": null,
+    "excerpt": "Multi-category service provider platform with real-time chat targeting French audience.",
+    "description": "Service provider marketplace platform offering multiple service categories with integrated real-time chat functionality between service providers and clients. Built specifically for the French market with local payment gateway integrations and comprehensive subscription management.",
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72",
+    "technologies": ["NestJS", "PostgreSQL", "Socket.io", "Stripe API", "PayPal API", "Cron Jobs"],
+    "role": "Backend Developer",
+    "tasks": [
+      "Revamped legacy ERP platform APIs into modern NestJS architecture",
+      "Created custom validation pipelines for complex DTO structures",
+      "Refactored authentication system using NestJS guards and strategies",
+      "Implemented scheduled cron jobs for database cleanup operations",
+      "Built automated user status checking and notification system",
+      "Integrated Stripe and PayPal payment gateways",
+      "Integrated French banking APIs for local payment processing",
+      "Developed real-time chat system using Socket.io",
+      "Implemented full-text search functionality across platform",
+      "Redesigned database table relationships for better performance"
+    ],
+    "achievements": [
+      "Successfully migrated legacy ERP APIs to scalable NestJS architecture",
+      "Implemented multi-gateway payment system supporting Stripe, PayPal, and French banking APIs",
+      "Built robust webhook handling for Stripe and PayPal subscription management",
+      "Created automated maintenance system with scheduled cron jobs reducing manual operations",
+      "Delivered real-time bidirectional communication between service providers and clients",
+      "Optimized database schema improving query performance and data integrity"
+    ],
+    "contributions": [
+      "Designed and implemented custom validation decorators for complex business logic",
+      "Architected authentication flow using JWT with refresh token strategy",
+      "Built scalable Socket.io infrastructure for real-time messaging",
+      "Implemented comprehensive webhook event handlers for payment lifecycle management",
+      "Created efficient full-text search indexes for improved search performance",
+      "Developed automated notification system for user engagement and retention",
+      "Refactored database relationships using proper foreign keys and indexes",
+      "Implemented error handling and logging strategies for production stability"
     ]
   }
 ]

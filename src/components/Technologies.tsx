@@ -17,11 +17,11 @@ const Technologies = () => {
   const techCategories: TechCategory[] = [
     {
       name: 'Backend',
-      items: ['Laravel', 'Symfony', 'Nest.js', 'Express.js', 'Koa.js', 'Pure PHP'],
+      items: ['Laravel', 'Nest.js', 'Express.js', 'Koa.js', 'Pure PHP'],
     },
     {
       name: 'Frontend',
-      items: ['Vue.js', 'jQuery', 'Blade', 'Twig', 'Livewire', 'Tailwind CSS', 'SASS'],
+      items: ['Vue.js', 'React.js', 'jQuery', 'Twig', 'Livewire', 'Tailwind CSS', 'SASS'],
     },
     {
       name: 'Databases',
@@ -33,7 +33,7 @@ const Technologies = () => {
     },
     {
       name: 'CMS',
-      items: ['Strapi', 'Statamic', 'Nova', 'Filament'],
+      items: ['Strapi', 'Nova', 'Filament'],
     },
   ];
 

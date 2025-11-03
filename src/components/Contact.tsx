@@ -97,7 +97,7 @@ const Contact = () => {
                 <h4 className="font-medium mb-4">Connect with me</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/Huzaifa-0" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-secondary p-3 rounded-full transition-transform hover:scale-110"

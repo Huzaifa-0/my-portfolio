@@ -32,11 +32,11 @@ const Hero = () => {
           className={`relative w-48 h-48 md:w-64 md:h-64 mb-8 rounded-full overflow-hidden transition-all duration-1000 ${heroVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
           style={{ transitionDelay: '300ms' }}
         >
-          <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-primary/5 backdrop-blur-sm rounded-full"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-primary/5 rounded-full"></div>
           <img 
             src={profileImage} 
             alt="Huzaifa Alfahl - Full Stack Engineer" 
-            className="object-cover w-full h-full rounded-full p-2"
+            className="object-cover object-[0_-3.75rem] w-full h-full rounded-full p-2"
           />
           <div className="absolute inset-0 rounded-full shadow-inner"></div>
         </div>

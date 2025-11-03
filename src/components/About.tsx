@@ -24,7 +24,7 @@ const About = () => {
             <div className="space-y-6">
               <AnimatedText delay={0.3}>
                 <p className="text-lg">
-                  Passionate and experienced Full Stack Software Developer with over 4 years of experience in designing, developing, and managing robust back-end systems for web and mobile platforms. Proficient in Laravel, PHP, Node.js, and front-end technologies. Skilled in API development, database management, and optimizing application performance. Proven ability to collaborate effectively with cross-functional teams to deliver high-quality, scalable solutions.
+                  Passionate and experienced Full Stack Software Developer with over 5+ years of experience in designing, developing, and managing robust back-end systems for web and mobile platforms. Proficient in Laravel, PHP, Node.js, and front-end technologies. Skilled in API development, database management, and optimizing application performance. Proven ability to collaborate effectively with cross-functional teams to deliver high-quality, scalable solutions.
                 </p>
               </AnimatedText>
               

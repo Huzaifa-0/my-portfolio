@@ -1,0 +1,355 @@
+[
+  {
+    "id": "1",
+    "title": "Parking",
+    "link": "https://www.theparking.eu/",
+    "excerpt": "Multi-platform ads listing system with advanced search engine for cars, motors, properties, and automotive brands.",
+    "description": "Ads listing platform aggregating content from popular sources into a single site using an advanced search engine. Multi-application project handling car ads, motors, properties, and specialized platforms for JLR group and Hyundai with integrated payment processing and CRM.",
+    "imageUrl": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a",
+    "technologies": ["PHP", "MySQL", "jQuery", "Stripe API", "Monday CRM", "Sphinx", "Twig", "Memcached"],
+    "role": "Lead Developer",
+    "tasks": [
+      "Integrated external services through APIs (insurance flash quotation, Deepl translation, Monday CRM, YouTube)",
+      "Migrated from SOAP API to REST API architecture",
+      "Implemented security measurements for actions ownership and authentication",
+      "Created form validation with AJAX and GraphQL API integration for Monday CRM",
+      "Built custom range filter facets with Sphinx and jQuery UI sliders",
+      "Developed PHP scripts for terminal operations (user management, cache clearing, alerts)",
+      "Created YouTube API integration with custom video sorting and view count tracking",
+      "Built manage account page for deletion, subscription, password changes",
+      "Implemented full-text search analysis page to mimic main search functionality"
+    ],
+    "achievements": [
+      "Upgraded Sphinx search engine from v2.2 to v3.0, improving performance by migrating to Sphinx SQL syntax",
+      "Reduced API calls through strategic caching and conditional logic",
+      "Improved SEO and performance scores on PageSpeed Insights by reducing blocking scripts and unused CSS",
+      "Successfully upgraded jQuery to 3.6, jQuery UI to latest version, and PHP to 8.2",
+      "Enhanced SQL query performance by reducing multi-join statements through new tables and memcached caching"
+    ],
+    "contributions": [
+      "Prevented SQL injection using prepared statements",
+      "Migrated JavaScript from old function syntax to class-based syntax",
+      "Implemented Referer-based validation and CSRF tokens for form submission",
+      "Used Twig templating engine for views and Outlook-compatible email templates",
+      "Created custom charts with popups for leads management",
+      "Implemented proper HTTP status codes and header-based redirections for authentication",
+      "Stored IPv4 and IPv6 addresses using MySQL functions",
+      "Reduced geolocation API usage by leveraging HTTP header location info",
+      "Upgraded Pepipost and Stripe SDKs with webhook implementations",
+      "Ensured CSS compatibility across all major browsers"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "White Alert",
+    "link": "https://white-alert.com/en/",
+    "excerpt": "Anonymous alert system for reporting staff misconduct with secure lawyer communication.",
+    "description": "Anonymous alert system designed for reporting staff misconduct, featuring secure communication channels between reporters and lawyers. The platform ensures confidentiality while providing proper request/response management in a chat-like interface.",
+    "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+    "technologies": ["Laravel", "MySQL", "jQuery", "Bootstrap", "Docker"],
+    "role": "Full Stack Developer",
+    "tasks": [
+      "Enhanced UI/UX design for better user experience",
+      "Implemented TOTP (Time-based One-Time Password) authentication",
+      "Created request/response management system for lawyer-staff communication",
+      "Productized the project for multi-client deployment",
+      "Unified styling using CSS variables for consistency"
+    ],
+    "achievements": [
+      "Successfully implemented different user management roles and dashboards",
+      "Created separate authentication methods for clients, staff, and lawyers",
+      "Built secure, anonymous reporting system maintaining user privacy"
+    ],
+    "contributions": [
+      "Developed chat-like conversation interface for alert handling",
+      "Implemented role-based access control for different user types",
+      "Created Docker containerization for easy deployment"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "CatBox",
+    "link": "https://catbox.ae/",
+    "excerpt": "Subscription-based service delivering surprise cat-related boxes to subscribers.",
+    "description": "E-commerce subscription platform offering curated surprise boxes with cat-related products. Features recurring payment processing, subscription management, and an admin dashboard for content and order management.",
+    "imageUrl": "https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6",
+    "technologies": ["Laravel", "MySQL", "jQuery", "Tailwind CSS", "Stripe API", "Filament"],
+    "role": "Backend Developer",
+    "tasks": [
+      "Integrated Stripe payment gateway for subscription processing",
+      "Stored invoices and subscription IDs in database",
+      "Implemented SEO enhancements across the platform",
+      "Created XML sitemap for better search engine indexing",
+      "Built comprehensive dashboard using Filament"
+    ],
+    "achievements": [
+      "Successfully implemented recurring subscription payment system",
+      "Enhanced SEO resulting in improved search rankings",
+      "Created efficient admin panel for subscription management"
+    ],
+    "contributions": [
+      "Designed database schema for subscription and invoice management",
+      "Implemented webhook handlers for Stripe events",
+      "Optimized database queries for subscription tracking"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Art Jameel",
+    "link": "https://artjameel.org/",
+    "excerpt": "Art events and artist listing platform for Ajman Art Department.",
+    "description": "Cultural platform showcasing art events and artist profiles for the Ajman Art Department. Features multi-language support and a comprehensive content management system for curators and administrators.",
+    "imageUrl": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b",
+    "technologies": ["Laravel", "MySQL", "Filament"],
+    "role": "Backend Developer",
+    "tasks": [
+      "Built admin/content management dashboard using Filament",
+      "Participated in database design and architecture",
+      "Implemented multi-language support at database level"
+    ],
+    "achievements": [
+      "Created user-friendly CMS for non-technical content managers",
+      "Successfully implemented multi-language content structure",
+      "Delivered scalable solution for growing event catalog"
+    ],
+    "contributions": [
+      "Designed efficient database relationships for events and artists",
+      "Implemented language localization strategy",
+      "Created intuitive admin interface for content management"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "L'Oréal Beauty Contest",
+    "link": "https://beautycreatorclub.event-loreal.com",
+    "excerpt": "Landing page and management system for L'Oréal beauty contest with analytics.",
+    "description": "Contest management platform for L'Oréal beauty events, featuring participant registration, content submission, and comprehensive analytics dashboard for tracking engagement and submissions.",
+    "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+    "technologies": ["Laravel", "MySQL", "Filament"],
+    "role": "Backend Developer",
+    "tasks": [
+      "Built admin/content management dashboard using Filament",
+      "Integrated analytics tracking and reporting",
+      "Implemented participant management system"
+    ],
+    "achievements": [
+      "Created comprehensive analytics dashboard for campaign tracking",
+      "Successfully handled high-traffic contest period",
+      "Delivered real-time reporting for marketing team"
+    ],
+    "contributions": [
+      "Designed database schema for contest entries and voting",
+      "Implemented secure file upload for submissions",
+      "Created custom analytics queries for campaign insights"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Roomco",
+    "link": "https://play.google.com/store/apps/details?id=com.roomco.android&hl=en",
+    "excerpt": "Social and chatting application for young people with AI chatbot integration.",
+    "description": "Real-time social networking and messaging platform designed for young users. Features WebSocket-based chat, AI-powered chatbots using ChatGPT API, and multi-language support with image generation capabilities.",
+    "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113",
+    "technologies": ["Express.js", "Socket.io", "MongoDB", "ChatGPT API"],
+    "role": "Reviewer and Support",
+    "tasks": [
+      "Participated in server migration to more efficient infrastructure",
+      "Assisted with code revamping and refactoring strategy",
+      "Upgraded Node.js version from 12 to 22",
+      "Created chatbots using ChatGPT SSE API",
+      "Managed multi-language bot responses using JSON schema",
+      "Integrated ChatGPT API for image generation in chatbots"
+    ],
+    "achievements": [
+      "Successfully upgraded Node.js across 10 major versions without breaking changes",
+      "Improved server performance through infrastructure optimization",
+      "Implemented AI chatbot increasing user engagement"
+    ],
+    "contributions": [
+      "Provided code review and refactoring recommendations",
+      "Implemented streaming responses for real-time AI interactions",
+      "Created multi-language support system for chatbot responses"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "IMC",
+    "link": null,
+    "excerpt": "Service request management system connecting clients with technicians for device repairs.",
+    "description": "Comprehensive service management platform connecting clients with technicians for device repairs. Features three separate dashboards (client, technician, super admin) with real-time location tracking, task management, and automated scheduling to prevent appointment overlaps.",
+    "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+    "technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Pusher"],
+    "role": "Full Stack Developer",
+    "tasks": [
+      "Developed API resources for request creation, status tracking, and report generation",
+      "Created custom filtration for technician tasks and search functionality",
+      "Implemented three-tier user access control with specific role permissions",
+      "Built real-time location tracking for technician dispatch",
+      "Created time slot management system preventing overlapping appointments",
+      "Developed multi-form module based on user task selection",
+      "Implemented real-time notifications for task status updates",
+      "Created statistical reports for web and mobile dashboards"
+    ],
+    "achievements": [
+      "Implemented hierarchical role system (team leader managing multiple technicians)",
+      "Created real-time GPS tracking system for service optimization",
+      "Built dynamic form system adapting to different service types",
+      "Delivered mobile and web APIs for cross-platform support"
+    ],
+    "contributions": [
+      "Designed role-based access control architecture",
+      "Implemented WebSocket integration for real-time updates",
+      "Created intelligent scheduling algorithm preventing conflicts",
+      "Built comprehensive reporting system for performance analytics"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Monlogement",
+    "link": "https://monlogement.com/",
+    "excerpt": "French property listing platform with advanced search using Meilisearch and Mapbox integration.",
+    "description": "Advanced property listing platform for France featuring complex search capabilities across cities, departments, postal codes, and regions. Utilizes Meilisearch for fast filtering, Mapbox for interactive maps with custom clusters, and automated data importing from agency FTP systems.",
+    "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa",
+    "technologies": ["Laravel", "Tailwind CSS", "Meilisearch", "Mapbox", "MySQL", "Redis", "FTP", "S3"],
+    "role": "Lead Developer",
+    "tasks": [
+      "Implemented Meilisearch for complex search and filtration of French administrative areas",
+      "Integrated Mapbox with custom clusters and popups",
+      "Imported and cleaned GeoJSON data for France area borders using GIS tools",
+      "Created dynamic multi-step property ad creation form",
+      "Built custom image upload functionality with drag-and-drop",
+      "Integrated Scaleway TEM API and SMTP for email delivery",
+      "Implemented queued jobs for email sending",
+      "Connected to Digital Ocean Spaces for image storage",
+      "Deployed through Laravel Forge with custom server configuration",
+      "Created bash scripts for database backup and restoration automation",
+      "Added Meilisearch as system service in server"
+    ],
+    "achievements": [
+      "Implemented Redis caching improving performance significantly",
+      "Optimized database queries avoiding N+1 lazy loading issues",
+      "Created automated alert system based on user search criteria with cron jobs",
+      "Optimized image sizes on upload reducing storage costs",
+      "Implemented FTP ads importing from agency file systems using optimized jobs with middleware",
+      "Improved query performance using Laravel Debug Bar and Telescope"
+    ],
+    "contributions": [
+      "Implemented DTO pattern for input transfer and sanitization",
+      "Created global helper functions autoloaded through Composer",
+      "Built Services layer for shared logic between web and API",
+      "Used model event observers for cleaner code architecture",
+      "Implemented API resources and form requests for custom validations",
+      "Managed user preferences and filter states with sessions",
+      "Refactored code and restructured filesystem for better maintainability"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Chloride",
+    "link": "https://www.chloride.com/home",
+    "excerpt": "Products and services listing with news, blogs, and careers using Strapi CMS.",
+    "description": "Corporate website for Chloride featuring products, services, news, blogs, and career opportunities. Built with headless CMS (Strapi) and React/Next.js frontend, featuring role-based authentication, multi-language support, and advanced search capabilities.",
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    "technologies": ["Strapi CMS", "Koa.js", "PostgreSQL", "React", "Next.js", "Meilisearch", "Knex.js"],
+    "role": "Backend Developer and Support Front-end Developer",
+    "tasks": [
+      "Developed page layouts and components",
+      "Created dynamic footer system",
+      "Built custom API for multi-language support using Knex.js",
+      "Implemented SEO-friendly page layouts",
+      "Created XML sitemap generation",
+      "Designed non-technical dashboard interface",
+      "Implemented user actions auditing system",
+      "Created email templates compatible with popular mailing services using table tags"
+    ],
+    "achievements": [
+      "Implemented Meilisearch for product listing based on product type",
+      "Achieved two-level image optimization using Next.js and Strapi",
+      "Created role-based authentication system",
+      "Delivered fully SEO-optimized website with excellent performance scores"
+    ],
+    "contributions": [
+      "Integrated React Meilisearch component for instant search",
+      "Built custom multi-language API layer",
+      "Implemented comprehensive audit logging for user actions",
+      "Created reusable email templates for transactional emails"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Seen",
+    "link": null,
+    "excerpt": "Multi-category service provider platform with subscription packages and real-time chat support.",
+    "description": "Service marketplace platform offering multiple service categories with package-based pricing. Features real-time chat assistance, push notifications, subscription management with Stripe, and OTP-based phone verification for enhanced security.",
+    "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    "technologies": ["Laravel", "Vue.js", "OneSignal", "MySQL", "Pusher", "Redis", "Stripe API"],
+    "role": "Full Stack Developer",
+    "tasks": [
+      "Refactored code to use proper model scopes",
+      "Removed circular dependencies using event listeners",
+      "Enhanced query performance reducing queries in eager loading",
+      "Minimized model memory usage",
+      "Indexed most frequently queried columns",
+      "Created OTP service for phone number verification",
+      "Handled dynamic push notifications with OneSignal API",
+      "Implemented Stripe API with multi-package database schema"
+    ],
+    "achievements": [
+      "Improved Vue.js state management architecture",
+      "Implemented smooth route animations enhancing UX",
+      "Refactored Vue components for better reusability at global and page levels",
+      "Implemented Stripe webhooks for subscription monitoring",
+      "Created caching strategy for frequently used searches",
+      "Successfully refactored admin dashboard (Vue frontend and Laravel backend)"
+    ],
+    "contributions": [
+      "Integrated Pusher for real-time chat assistance on web and mobile",
+      "Designed efficient database schema for subscription packages",
+      "Implemented event-driven architecture reducing coupling",
+      "Created reusable Vue components library",
+      "Optimized database queries with proper indexing strategy"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Blindlove",
+    "link": null,
+    "excerpt": "Anonymous dating application with intelligent matching algorithm based on preferences and interests.",
+    "description": "Innovative dating platform featuring an anonymous matching algorithm that uses weighted preferences, cosine similarity, and bitmap interests for optimal user matching. Built with real-time communication capabilities, multi-language support, and scalable architecture using Node.js clustering and Redis for high-performance operations.",
+    "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+    "technologies": ["NestJS", "Socket.io", "MongoDB", "SSE", "Redis", "S3", "Node.js Cluster", "Passport JWT"],
+    "role": "Lead Backend Developer",
+    "tasks": [
+        "Implemented matching algorithm with pooling based on general filtration using weighted preferences",
+        "Applied cosine similarity and bitmap interests for match scoring",
+        "Created shared/utils services module for code reusability",
+        "Implemented event listening for service/module decoupling",
+        "Built multi-language module with custom interceptor, decorator, and localization service",
+        "Integrated i18n module for static translation files",
+        "Developed multi-language push notification system with notification groups in single API service",
+        "Managed match requests using Redis queue list type",
+        "Stored top matches in Redis using sorted lists for fast retrieval",
+        "Built chat media optimization service for image/video processing"
+    ],
+    "achievements": [
+        "Implemented single socket connection per user management preventing duplicate connections",
+        "Deployed Node.js cluster mode for horizontal scaling",
+        "Configured Socket.io Redis adapter for cluster mode synchronization",
+        "Built SSE (Server-Sent Events) for general notifications with custom heartbeat and connection pooling",
+        "Optimized MongoDB aggregation pipelines with proper indexing and subdocuments to minimize lookups",
+        "Implemented patch writes in MongoDB for efficient partial updates",
+        "Created custom JWT guard with Passport including token blacklisting functionality",
+        "Handled cron jobs on single process using Redis distributed locks to prevent duplicate execution"
+    ],
+    "contributions": [
+        "Adhered to TypeScript best practices using interfaces and type aliases throughout codebase",
+        "Implemented custom Redis service extending Redis IO for enhanced functionality",
+        "Designed event-driven architecture for better service decoupling and maintainability",
+        "Created efficient Redis transport functionality for real-time features",
+        "Built scalable matching system handling high concurrent users",
+        "Implemented comprehensive multi-language support at all application layers",
+        "Optimized database queries and data structures for performance at scale",
+        "Designed robust real-time communication infrastructure with fallback mechanisms"
+    ]
+  }
+]

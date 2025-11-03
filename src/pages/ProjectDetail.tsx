@@ -47,7 +47,7 @@ const ProjectDetail = () => {
       <footer className="py-8 bg-background border-t border-border/30">
         <div className="container text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Huzaifa Alfahl. All rights reserved.
           </p>
         </div>
       </footer>

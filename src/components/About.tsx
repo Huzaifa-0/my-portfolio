@@ -24,19 +24,7 @@ const About = () => {
             <div className="space-y-6">
               <AnimatedText delay={0.3}>
                 <p className="text-lg">
-                  I'm a passionate full-stack software engineer with expertise in building scalable, high-performance applications using modern technologies.
-                </p>
-              </AnimatedText>
-              
-              <AnimatedText delay={0.4}>
-                <p className="text-lg">
-                  With over 8 years of experience, I've worked on a variety of projects ranging from e-commerce platforms to healthcare systems, focusing on creating elegant solutions to complex problems.
-                </p>
-              </AnimatedText>
-              
-              <AnimatedText delay={0.5}>
-                <p className="text-lg">
-                  My approach combines clean code principles with user-centered design to create intuitive, efficient, and maintainable software that delivers real value.
+                  Passionate and experienced Full Stack Software Developer with over 4 years of experience in designing, developing, and managing robust back-end systems for web and mobile platforms. Proficient in Laravel, PHP, Node.js, and front-end technologies. Skilled in API development, database management, and optimizing application performance. Proven ability to collaborate effectively with cross-functional teams to deliver high-quality, scalable solutions.
                 </p>
               </AnimatedText>
               

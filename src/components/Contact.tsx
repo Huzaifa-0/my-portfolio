@@ -62,7 +62,7 @@ const Contact = () => {
           </p>
         </AnimatedText>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <AnimatedText delay={0.4} className="space-y-6">
             <div className="bg-secondary/30 backdrop-blur-sm p-8 rounded-lg border border-border/40">
               <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
@@ -74,8 +74,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">Email</p>
-                    <a href="mailto:john.doe@example.com" className="font-medium hover:text-primary transition-colors">
-                      john.doe@example.com
+                    <a href="mailto:huzaifa963sy@gmail.com" className="font-medium hover:text-primary transition-colors">
+                      huzaifa963sy@gmail.com
                     </a>
                   </div>
                 </div>
@@ -86,19 +86,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">Phone</p>
-                    <a href="tel:+1234567890" className="font-medium hover:text-primary transition-colors">
-                      +1 (234) 567-890
+                    <a href="tel:+971508015860" className="font-medium hover:text-primary transition-colors">
+                      +971 50 801 5860
                     </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <MapPin className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Location</p>
-                    <p className="font-medium">San Francisco, CA</p>
                   </div>
                 </div>
               </div>
@@ -117,7 +107,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/huzaifa-alfahl-7878961b9/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-secondary p-3 rounded-full transition-transform hover:scale-110"
@@ -126,7 +116,7 @@ const Contact = () => {
                       <path d="M20.447 20.452H16.893V14.883C16.893 13.555 16.867 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166V20.452H20.447ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.4 4.23 7.4 5.368C7.4 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452Z" fill="currentColor"/>
                     </svg>
                   </a>
-                  <a 
+                  {/* <a 
                     href="https://twitter.com" 
                     target="_blank" 
                     rel="noopener noreferrer" 
@@ -135,95 +125,17 @@ const Contact = () => {
                     <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M23 3.01006C22.0424 3.67552 20.9821 4.19217 19.86 4.53006C19.2577 3.83757 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.28444C14.0247 3.61164 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53006V8.53006C10.2426 8.57562 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 22.6608 4.40277 23 3.01006Z" fill="currentColor"/>
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </AnimatedText>
-          
-          <AnimatedText delay={0.5} className="space-y-6">
-            <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                <FormField
-                  control={form.control}
-                  name="name"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Name</FormLabel>
-                      <FormControl>
-                        <Input 
-                          placeholder="Your name" 
-                          {...field} 
-                          className="bg-secondary/30 border-border/40 focus-visible:ring-primary"
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Email</FormLabel>
-                      <FormControl>
-                        <Input 
-                          type="email" 
-                          placeholder="Your email address" 
-                          {...field} 
-                          className="bg-secondary/30 border-border/40 focus-visible:ring-primary"
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="message"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Message</FormLabel>
-                      <FormControl>
-                        <Textarea 
-                          placeholder="Your message" 
-                          rows={6} 
-                          {...field} 
-                          className="bg-secondary/30 border-border/40 focus-visible:ring-primary resize-none"
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <Button 
-                  type="submit" 
-                  className="w-full"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? (
-                    <span className="flex items-center gap-2">
-                      <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                      Sending...
-                    </span>
-                  ) : (
-                    <span className="flex items-center gap-2">
-                      <Send className="h-4 w-4" />
-                      Send Message
-                    </span>
-                  )}
-                </Button>
-              </form>
-            </Form>
-          </AnimatedText>
         </div>
+          
+          {/* Contact Form - Currently Disabled */}
+          {/* <AnimatedText delay={0.5} className="space-y-6">
+...
+          </AnimatedText> */}
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import { useIntersectionObserver, useTypewriter } from '@/lib/animations';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import profileImage from '@/assets/profile.jpg';
 
 const Hero = () => {
   const { ref: heroRef, isVisible: heroVisible } = useIntersectionObserver({
@@ -11,7 +12,7 @@ const Hero = () => {
     rootMargin: '0px',
   }, () => {});
 
-  const title = useTypewriter('Software Engineer', 100, 500);
+  const title = useTypewriter('Full Stack Engineer', 100, 500);
   const subtitle = useTypewriter('Building elegant, performant applications', 30, 1500);
   
   const scrollToAbout = () => {
@@ -33,8 +34,8 @@ const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-primary/5 backdrop-blur-sm rounded-full"></div>
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
-            alt="Portrait" 
+            src={profileImage} 
+            alt="Huzaifa Alfahl - Full Stack Engineer" 
             className="object-cover w-full h-full rounded-full p-2"
           />
           <div className="absolute inset-0 rounded-full shadow-inner"></div>
@@ -45,7 +46,7 @@ const Hero = () => {
           style={{ transitionDelay: '400ms' }}
         >
           <span>Hello, I'm </span>
-          <span className="text-primary">John Doe</span>
+          <span className="text-primary">Huzaifa Alfahl</span>
         </h1>
         
         <h2 
@@ -77,7 +78,7 @@ const Hero = () => {
       
       <button 
         onClick={scrollToAbout}
-        className={`absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'}`}
+        className={`fixed md:absolute bottom-10 left-1/2 -translate-x-1/2 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'} z-10`}
         style={{ transitionDelay: '1200ms' }}
         aria-label="Scroll to About section"
       >

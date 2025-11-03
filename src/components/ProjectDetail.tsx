@@ -2,7 +2,7 @@
 import React from 'react';
 import { Project } from '@/data/projectsData';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import AnimatedText from './AnimatedText';
 
@@ -32,7 +32,16 @@ const ProjectDetail = ({ project }: ProjectDetailProps) => {
         </AnimatedText>
         
         <AnimatedText delay={0.3} className="mb-8">
-          <p className="text-xl text-muted-foreground">{project.excerpt}</p>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <p className="text-xl text-muted-foreground">{project.excerpt}</p>
+            {project.link && (
+              <Button asChild size="lg" className="sm:w-auto">
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  View Project <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            )}
+          </div>
         </AnimatedText>
         
         <AnimatedText delay={0.4} className="mb-10">

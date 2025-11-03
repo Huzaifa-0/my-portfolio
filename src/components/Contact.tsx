@@ -8,7 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { toast } from 'sonner';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, FileDown } from 'lucide-react';
 import AnimatedText from './AnimatedText';
 
 const formSchema = z.object({
@@ -94,7 +94,15 @@ const Contact = () => {
               </div>
               
               <div className="mt-8 pt-8 border-t border-border">
-                <h4 className="font-medium mb-4">Connect with me</h4>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mb-6">
+                  <h4 className="font-medium">Connect with me</h4>
+                  <Button asChild variant="default" size="lg" className="gap-2">
+                    <a href="/resume/Huzaifa_Alfahl_Resume.pdf" download="Huzaifa_Alfahl_Resume.pdf">
+                      <FileDown className="h-4 w-4" />
+                      Download Resume
+                    </a>
+                  </Button>
+                </div>
                 <div className="flex gap-4">
                   <a 
                     href="https://github.com/Huzaifa-0" 

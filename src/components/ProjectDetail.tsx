@@ -83,15 +83,15 @@ const ProjectDetail = ({ project }: ProjectDetailProps) => {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-8">
           <AnimatedText delay={0.8}>
-            <div className="bg-secondary/30 p-6 rounded-lg h-full">
-              <h3 className="text-lg font-semibold mb-4">Tasks</h3>
-              <ul className="space-y-2">
+            <div className="bg-secondary/30 p-8 rounded-lg border border-border/40">
+              <h3 className="text-2xl font-semibold mb-6 text-primary">Tasks</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {project.tasks.map((task, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary mt-2 mr-2"></span>
-                    <span>{task}</span>
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+                    <span className="text-base leading-relaxed">{task}</span>
                   </li>
                 ))}
               </ul>
@@ -99,13 +99,13 @@ const ProjectDetail = ({ project }: ProjectDetailProps) => {
           </AnimatedText>
           
           <AnimatedText delay={0.9}>
-            <div className="bg-secondary/30 p-6 rounded-lg h-full">
-              <h3 className="text-lg font-semibold mb-4">Achievements</h3>
-              <ul className="space-y-2">
+            <div className="bg-secondary/30 p-8 rounded-lg border border-border/40">
+              <h3 className="text-2xl font-semibold mb-6 text-primary">Achievements</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {project.achievements.map((achievement, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary mt-2 mr-2"></span>
-                    <span>{achievement}</span>
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+                    <span className="text-base leading-relaxed">{achievement}</span>
                   </li>
                 ))}
               </ul>
@@ -113,13 +113,13 @@ const ProjectDetail = ({ project }: ProjectDetailProps) => {
           </AnimatedText>
           
           <AnimatedText delay={1.0}>
-            <div className="bg-secondary/30 p-6 rounded-lg h-full">
-              <h3 className="text-lg font-semibold mb-4">Contributions</h3>
-              <ul className="space-y-2">
+            <div className="bg-secondary/30 p-8 rounded-lg border border-border/40">
+              <h3 className="text-2xl font-semibold mb-6 text-primary">Contributions</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {project.contributions.map((contribution, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary mt-2 mr-2"></span>
-                    <span>{contribution}</span>
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+                    <span className="text-base leading-relaxed">{contribution}</span>
                   </li>
                 ))}
               </ul>

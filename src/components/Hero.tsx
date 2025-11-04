@@ -74,16 +74,16 @@ const Hero = () => {
             <a href="#contact">Contact Me</a>
           </Button>
         </div>
+        
+        <button 
+          onClick={scrollToAbout}
+          className={`mt-16 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'}`}
+          style={{ transitionDelay: '1200ms' }}
+          aria-label="Scroll to About section"
+        >
+          <ChevronDown size={24} />
+        </button>
       </div>
-      
-      <button 
-        onClick={scrollToAbout}
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'} z-10`}
-        style={{ transitionDelay: '1200ms' }}
-        aria-label="Scroll to About section"
-      >
-        <ChevronDown size={24} />
-      </button>
       
       {/* Decorative elements */}
       <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-primary/5 rounded-full filter blur-3xl"></div>

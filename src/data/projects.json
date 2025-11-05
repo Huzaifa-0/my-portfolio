@@ -5,7 +5,7 @@
     "link": "https://www.theparking.eu/",
     "excerpt": "Multi-platform ads listing system with advanced search engine for cars, motors, properties, and automotive brands.",
     "description": "Ads listing platform aggregating content from popular sources into a single site using an advanced search engine. Multi-application project handling car ads, motors, properties, and specialized platforms for JLR group and Hyundai with integrated payment processing and CRM.",
-    "imageUrl": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a",
+    "imageUrl": "/images/parking.png",
     "technologies": ["PHP", "MySQL", "jQuery", "Stripe API", "Monday CRM", "Sphinx", "Twig", "Memcached"],
     "role": "Lead Developer",
     "tasks": [
@@ -318,7 +318,7 @@
     "link": "https://www.blindlove.io/",
     "excerpt": "Anonymous dating application with intelligent matching algorithm based on preferences and interests.",
     "description": "Innovative dating platform featuring an anonymous matching algorithm that uses weighted preferences, cosine similarity, and bitmap interests for optimal user matching. Built with real-time communication capabilities, multi-language support, and scalable architecture using Node.js clustering and Redis for high-performance operations.",
-    "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+    "imageUrl": "/images/blindlove.png",
     "technologies": ["NestJS", "Socket.io", "MongoDB", "SSE", "Redis", "S3", "Node.js Cluster", "Passport JWT"],
     "role": "Lead Backend Developer",
     "tasks": [

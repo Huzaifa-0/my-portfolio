@@ -19,6 +19,18 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMobileMenuOpen]);
+  
   // Close mobile menu when changing routes
   useEffect(() => {
     setIsMobileMenuOpen(false);
@@ -51,10 +63,10 @@ const NavBar = () => {
   
   return (
     <header className={cn(
-      'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-out-expo',
+      'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-out-expo w-full',
       isScrolled ? 'py-3 bg-white/80 dark:bg-background/80 backdrop-blur-md shadow-sm' : 'py-5'
     )}>
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between w-full">
         <Link 
           to="/" 
           className="text-xl font-semibold transition-all duration-300 ease-out-expo hover:opacity-80"
@@ -111,10 +123,10 @@ const NavBar = () => {
       
       {/* Mobile Navigation */}
       <div className={cn(
-        'md:hidden fixed inset-0 bg-background z-40 transition-all duration-300 ease-out-expo',
+        'md:hidden fixed inset-0 bg-background z-[60] transition-all duration-300 ease-out-expo overflow-hidden',
         isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
       )}>
-        <div className="container flex flex-col items-center justify-center h-full space-y-8">
+        <div className="flex flex-col items-center justify-center h-full w-full space-y-8 px-4">
           {navigationItems.map((item) => (
             <Link
               key={item.path}

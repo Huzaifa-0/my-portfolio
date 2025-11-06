@@ -28,8 +28,8 @@ const Index = () => {
       <Hero />
       <About />
       <Technologies />
-      <Experience />
       <Projects />
+      <Experience />
       <Contact />
       <footer className="py-12 md:py-16 bg-background border-t border-border/30 mt-8">
         <div className="container text-center">

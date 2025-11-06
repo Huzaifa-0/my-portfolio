@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Huzaifa-0.github.io/engaging-tech-showcase",
+  "homepage": "https://Huzaifa-0.github.io/my-portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

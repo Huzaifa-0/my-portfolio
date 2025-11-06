@@ -5,7 +5,7 @@
     "link": "https://www.theparking.eu/",
     "excerpt": "Multi-platform ads listing system with advanced search engine for cars, motors, properties, and automotive brands.",
     "description": "Ads listing platform aggregating content from popular sources into a single site using an advanced search engine. Multi-application project handling car ads, motors, properties, and specialized platforms for JLR group and Hyundai with integrated payment processing and CRM.",
-    "imageUrl": "/images/parking.webp",
+    "imageUrl": "/my-portfolio/images/parking.webp",
     "technologies": ["PHP", "MySQL", "jQuery", "Stripe API", "Monday CRM", "Sphinx", "Twig", "Memcached"],
     "role": "Lead Developer",
     "tasks": [
@@ -45,7 +45,7 @@
     "link": "https://avocat.white-alert.com",
     "excerpt": "Anonymous alert system for reporting staff misconduct with secure lawyer communication.",
     "description": "Anonymous alert system designed for reporting staff misconduct, featuring secure communication channels between reporters and lawyers. The platform ensures confidentiality while providing proper request/response management in a chat-like interface.",
-    "imageUrl": "/images/white_alert.webp",
+    "imageUrl": "/my-portfolio/images/white_alert.webp",
     "technologies": ["Laravel", "MySQL", "jQuery", "Bootstrap", "Docker"],
     "role": "Full Stack Developer",
     "tasks": [
@@ -72,7 +72,7 @@
     "link": "https://catbox.ae/",
     "excerpt": "Subscription-based service delivering surprise cat-related boxes to subscribers.",
     "description": "E-commerce subscription platform offering curated surprise boxes with cat-related products. Features recurring payment processing, subscription management, and an admin dashboard for content and order management.",
-    "imageUrl": "/images/catBox.webp",
+    "imageUrl": "/my-portfolio/images/catBox.webp",
     "technologies": ["Laravel", "MySQL", "jQuery", "Tailwind CSS", "Stripe API", "Filament"],
     "role": "Backend Developer",
     "tasks": [
@@ -99,7 +99,7 @@
     "link": "https://artjameel.org/",
     "excerpt": "Art events and artist listing platform for Ajman Art Department.",
     "description": "Cultural platform showcasing art events and artist profiles for the Ajman Art Department. Features multi-language support and a comprehensive content management system for curators and administrators.",
-    "imageUrl": "/images/art_jameel.webp",
+    "imageUrl": "/my-portfolio/images/art_jameel.webp",
     "technologies": ["Laravel", "MySQL", "Filament"],
     "role": "Backend Developer",
     "tasks": [
@@ -126,7 +126,7 @@
     "link": "https://beautycreatorclub.event-loreal.com",
     "excerpt": "Landing page and management system for L'Oréal beauty contest with analytics.",
     "description": "Contest management platform for L'Oréal beauty events, featuring participant registration, content submission, and comprehensive analytics dashboard for tracking engagement and submissions.",
-    "imageUrl": "/images/loreal.webp",
+    "imageUrl": "/my-portfolio/images/loreal.webp",
     "technologies": ["Laravel", "MySQL", "Filament"],
     "role": "Backend Developer",
     "tasks": [
@@ -151,7 +151,7 @@
     "link": "https://www.roomco.com/en/",
     "excerpt": "Social and chatting application for young people with AI chatbot integration.",
     "description": "Real-time social networking and messaging platform designed for young users. Features WebSocket-based chat, AI-powered chatbots using ChatGPT API, and multi-language support with image generation capabilities.",
-    "imageUrl": "/images/roomco.webp",
+    "imageUrl": "/my-portfolio/images/roomco.webp",
     "technologies": ["Express.js", "Socket.io", "MongoDB", "ChatGPT API"],
     "role": "Reviewer and Support",
     "tasks": [
@@ -211,7 +211,7 @@
     "link": "https://monlogement.com/",
     "excerpt": "French property listing platform with advanced search using Meilisearch and Mapbox integration.",
     "description": "Advanced property listing platform for France featuring complex search capabilities across cities, departments, postal codes, and regions. Utilizes Meilisearch for fast filtering, Mapbox for interactive maps with custom clusters, and automated data importing from agency FTP systems.",
-    "imageUrl": "/images/monlogement.webp",
+    "imageUrl": "/my-portfolio/images/monlogement.webp",
     "technologies": ["Laravel", "Tailwind CSS", "Meilisearch", "Mapbox", "MySQL", "Redis", "FTP", "S3"],
     "role": "Lead Developer",
     "tasks": [
@@ -251,7 +251,7 @@
     "link": "https://www.chloride.com/home",
     "excerpt": "Products and services listing with news, blogs, and careers using Strapi CMS.",
     "description": "Corporate website for Chloride featuring products, services, news, blogs, and career opportunities. Built with headless CMS (Strapi) and React/Next.js frontend, featuring role-based authentication, multi-language support, and advanced search capabilities.",
-    "imageUrl": "/images/chloride.webp",
+    "imageUrl": "/my-portfolio/images/chloride.webp",
     "technologies": ["Strapi CMS", "Koa.js", "PostgreSQL", "React", "Next.js", "Meilisearch", "Knex.js"],
     "role": "Backend Developer and Support Front-end Developer",
     "tasks": [
@@ -318,7 +318,7 @@
     "link": "https://www.blindlove.io/",
     "excerpt": "Anonymous dating application with intelligent matching algorithm based on preferences and interests.",
     "description": "Innovative dating platform featuring an anonymous matching algorithm that uses weighted preferences, cosine similarity, and bitmap interests for optimal user matching. Built with real-time communication capabilities, multi-language support, and scalable architecture using Node.js clustering and Redis for high-performance operations.",
-    "imageUrl": "/images/blindLove.webp",
+    "imageUrl": "/my-portfolio/images/blindLove.webp",
     "technologies": ["NestJS", "Socket.io", "MongoDB", "SSE", "Redis", "S3", "Node.js Cluster", "Passport JWT"],
     "role": "Lead Backend Developer",
     "tasks": [

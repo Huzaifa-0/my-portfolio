@@ -77,7 +77,7 @@ const Hero = () => {
         
         <button 
           onClick={scrollToAbout}
-          className={`mt-16 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'}`}
+          className={`mt-8 bg-transparent p-2 rounded-full animate-bounce transition-all duration-1000 ${heroVisible ? 'opacity-70' : 'opacity-0'}`}
           style={{ transitionDelay: '1200ms' }}
           aria-label="Scroll to About section"
         >

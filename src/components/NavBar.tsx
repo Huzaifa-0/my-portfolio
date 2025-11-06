@@ -31,6 +31,24 @@ const NavBar = () => {
     { label: 'Contact', path: '/#contact' },
   ];
   
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
+    if (path.startsWith('/#')) {
+      e.preventDefault();
+      const hash = path.substring(2);
+      if (location.pathname === '/') {
+        // Already on home page, just scroll to section
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+          window.history.pushState(null, '', `#${hash}`);
+        }
+      } else {
+        // Navigate to home page with hash
+        window.location.href = path;
+      }
+    }
+  };
+  
   return (
     <header className={cn(
       'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-out-expo',
@@ -54,6 +72,7 @@ const NavBar = () => {
             <Link
               key={item.path}
               to={item.path}
+              onClick={(e) => handleNavClick(e, item.path)}
               className={cn(
                 'text-sm font-medium transition-all hover:text-primary relative',
                 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:origin-center',
@@ -100,6 +119,7 @@ const NavBar = () => {
             <Link
               key={item.path}
               to={item.path}
+              onClick={(e) => handleNavClick(e, item.path)}
               className={cn(
                 'text-xl font-medium transition-all hover:text-primary',
                 (location.pathname === item.path || 

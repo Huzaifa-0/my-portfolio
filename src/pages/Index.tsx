@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Technologies from '@/components/Technologies';
+import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import NavBar from '@/components/NavBar';
@@ -27,6 +28,7 @@ const Index = () => {
       <Hero />
       <About />
       <Technologies />
+      <Experience />
       <Projects />
       <Contact />
       <footer className="py-12 md:py-16 bg-background border-t border-border/30 mt-8">

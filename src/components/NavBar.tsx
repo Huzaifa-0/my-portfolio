@@ -26,6 +26,7 @@ const NavBar = () => {
   
   const navigationItems = [
     { label: 'Home', path: '/' },
+    { label: 'Experience', path: '/#experience' },
     { label: 'Projects', path: '/projects' },
     { label: 'Contact', path: '/#contact' },
   ];
@@ -59,7 +60,8 @@ const NavBar = () => {
                 'after:scale-x-0 after:bg-primary after:transition-transform after:duration-300',
                 'hover:after:scale-x-100',
                 (location.pathname === item.path || 
-                (item.path === '/#contact' && location.hash === '#contact')) ? 
+                (item.path === '/#contact' && location.hash === '#contact') ||
+                (item.path === '/#experience' && location.hash === '#experience')) ? 
                 'text-primary after:scale-x-100' : ''
               )}
             >
@@ -101,7 +103,8 @@ const NavBar = () => {
               className={cn(
                 'text-xl font-medium transition-all hover:text-primary',
                 (location.pathname === item.path || 
-                (item.path === '/#contact' && location.hash === '#contact')) ? 
+                (item.path === '/#contact' && location.hash === '#contact') ||
+                (item.path === '/#experience' && location.hash === '#experience')) ? 
                 'text-primary' : ''
               )}
             >

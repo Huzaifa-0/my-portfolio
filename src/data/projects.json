@@ -318,7 +318,7 @@
     "link": "https://www.blindlove.io/",
     "excerpt": "Anonymous dating application with intelligent matching algorithm based on preferences and interests.",
     "description": "Innovative dating platform featuring an anonymous matching algorithm that uses weighted preferences, cosine similarity, and bitmap interests for optimal user matching. Built with real-time communication capabilities, multi-language support, and scalable architecture using Node.js clustering and Redis for high-performance operations.",
-    "imageUrl": "/images/blindlove.webp",
+    "imageUrl": "/images/blindLove.webp",
     "technologies": ["NestJS", "Socket.io", "MongoDB", "SSE", "Redis", "S3", "Node.js Cluster", "Passport JWT"],
     "role": "Lead Backend Developer",
     "tasks": [

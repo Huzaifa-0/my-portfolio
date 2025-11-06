@@ -17,15 +17,15 @@ const Technologies = () => {
   const techCategories: TechCategory[] = [
     {
       name: 'Backend',
-      items: ['Laravel', 'Nest.js', 'Express.js', 'Koa.js', 'Pure PHP'],
+      items: ['Laravel', 'Nest.js', 'Express.js', 'Core PHP'],
     },
     {
       name: 'Frontend',
-      items: ['Vue.js', 'React.js', 'jQuery', 'Twig', 'Livewire', 'Tailwind CSS', 'SASS'],
+      items: ['Vue.js', 'React.js', 'jQuery UI', 'Tailwind CSS'],
     },
     {
       name: 'Databases',
-      items: ['MongoDB', 'Cloud Firestore', 'Redis', 'MemCached', 'MySQL', 'SQLite', 'PostgreSQL'],
+      items: ['MongoDB', 'Redis', 'MemCached', 'MySQL', 'PostgreSQL'],
     },
     {
       name: 'DevOps',

@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <section 
       ref={heroRef} 
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-20 pb-10"
+      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-20 pb-10 w-full"
     >
       <div className="container flex flex-col items-center text-center z-10">
         <div 
@@ -86,8 +86,8 @@ const Hero = () => {
       </div>
       
       {/* Decorative elements */}
-      <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-primary/5 rounded-full filter blur-3xl"></div>
-      <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute top-1/3 -left-32 w-64 h-64 bg-primary/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute bottom-1/3 -right-48 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl"></div>
     </section>
   );
 };

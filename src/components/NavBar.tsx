@@ -128,6 +128,17 @@ const NavBar = () => {
         'md:hidden fixed inset-0 bg-background z-[60] transition-all duration-300 ease-out-expo',
         isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
       )}>
+        {/* Close button */}
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className="absolute top-5 right-4 z-[70]"
+          onClick={() => setIsMobileMenuOpen(false)}
+          aria-label="Close menu"
+        >
+          <X size={20} />
+        </Button>
+        
         <div className="flex flex-col items-center justify-center h-full w-full space-y-8 px-4">
           {navigationItems.map((item) => (
             <Link

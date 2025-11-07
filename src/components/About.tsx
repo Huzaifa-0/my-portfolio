@@ -38,18 +38,20 @@ const About = () => {
               </AnimatedText>
             </div>
             
-            <div className={`relative transition-all duration-1000 ease-out-expo ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`} style={{ transitionDelay: '300ms' }}>
-              <div className="relative z-10">
-                <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
-                  <img 
-                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                    alt="Coding on a laptop" 
-                    className="object-cover w-full h-full"
-                  />
+            <div className="overflow-hidden">
+              <div className={`relative transition-all duration-1000 ease-out-expo ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'}`} style={{ transitionDelay: '300ms' }}>
+                <div className="relative z-10">
+                  <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
+                    <img 
+                      src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+                      alt="Coding on a laptop" 
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-lg"></div>
                 </div>
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-lg"></div>
+                <div className="absolute -top-4 -left-4 w-full h-full border-2 border-primary/20 rounded-lg z-0"></div>
               </div>
-              <div className="absolute -top-4 -left-4 w-full h-full border-2 border-primary/20 rounded-lg z-0"></div>
             </div>
           </div>
         </div>

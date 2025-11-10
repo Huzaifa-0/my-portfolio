@@ -101,7 +101,7 @@ const NavBar = () => {
               </Link>
             ))}
             <a 
-              href="/resume/Huzaifa_Alfahl_Resume.pdf" 
+              href="/resume/Huzaifa_Alfahl_Full_Stack_Engineer_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="relative inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
@@ -157,7 +157,7 @@ const NavBar = () => {
             </Link>
           ))}
           <a 
-            href="/resume/Huzaifa_Alfahl_Resume.pdf" 
+            href="/resume/Huzaifa_Alfahl_Full_Stack_Engineer_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="relative inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 py-2 text-base font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 mt-4"

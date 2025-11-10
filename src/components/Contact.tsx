@@ -97,7 +97,7 @@ const Contact = () => {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mb-6">
                   <h4 className="font-medium">Connect with me</h4>
                   <Button asChild variant="default" size="lg" className="gap-2">
-                    <a href="/resume/Huzaifa_Alfahl_Resume.pdf" download="Huzaifa_Alfahl_Resume.pdf">
+                    <a href="/resume/Huzaifa_Alfahl_Full_Stack_Engineer_Resume.pdf" download="Huzaifa_Alfahl_Full_Stack_Engineer_Resume.pdf">
                       <FileDown className="h-4 w-4" />
                       Download Resume
                     </a>
